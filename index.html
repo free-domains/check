@@ -56,7 +56,7 @@
 
                 if(data.message === "DOMAIN_AVAILABLE") {
                     status.classList = "text-green-600 font-semibold";
-                    status.innerHTML = `Congratulations, ${subdomain.value.trim().toLowerCase()}.${domain.value} is available! <a href="https://github.com/free-domains/register#register" class="underline underline-2 hover:no-underline">Register now!</span>`;
+                    status.innerHTML = `Congratulations, ${subdomain.value.trim().toLowerCase()}.${domain.value} is available! <a href="https://github.com/free-domains/register?tab=readme-ov-file#-register" class="underline underline-2 hover:no-underline">Register now!</span>`;
                 } else {
                     status.classList = "text-red-600 font-semibold";
                     status.innerHTML = `Sorry, ${subdomain.value.trim().toLowerCase()}.${domain.value} is unavailable!`;

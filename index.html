@@ -48,7 +48,7 @@
             btn.setAttribute("disabled", true);
             btn.innerHTML = "Checking Domain...";
 
-            fetch(`https://api.freesubdomains.org/check?domain=${subdomain.value.trim().toLowerCase()}.${domain.value}`).then(res => res.json()).then(data => {
+            fetch(`https://free-domains-api.wdh.gg/check?domain=${subdomain.value.trim().toLowerCase()}.${domain.value}`).then(res => res.json()).then(data => {
                 btn.removeAttribute("disabled");
                 btn.innerHTML = "Check Domain";
 
